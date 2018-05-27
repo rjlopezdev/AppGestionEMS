@@ -37,5 +37,7 @@ namespace AppGestionEMS.Models
         public System.Data.Entity.DbSet<AppGestionEMS.Models.GrupoClases> GrupoClases { get; set; }
 
         public System.Data.Entity.DbSet<AppGestionEMS.Models.AsignacionDocentes> AsignacionDocentes { get; set; }
+
+        public System.Data.Entity.DbSet<AppGestionEMS.Models.Matriculas> Matriculas { get; set; }
     }
 }
